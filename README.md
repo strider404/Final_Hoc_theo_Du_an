@@ -2,7 +2,7 @@
 
 Cinemax là một ứng dụng web mô phỏng hệ thống rạp chiếu phim. Ứng dụng cung cấp luồng đặt vé cho khách hàng và một hệ thống quản trị nội dung (CMS) tích hợp sẵn trên Frontend dành riêng cho ban quản lý.
 
-## 🚀 Tính năng nổi bật
+## Tính năng nổi bật
 
 * **Trải nghiệm Người dùng (Khách hàng):**
     * Giao diện Dark Mode đồng bộ, Responsive bằng Bootstrap 5.
@@ -19,7 +19,7 @@ Cinemax là một ứng dụng web mô phỏng hệ thống rạp chiếu phim. 
     * Tự động khởi tạo cơ sở dữ liệu và tài khoản Admin mặc định khi chạy (Entrypoint).
     * Hoạt động Offline 100% (Hình ảnh và DB đã được tích hợp cứng vào Image, không phụ thuộc mạng lưới API bên ngoài).
 
-## 🛠 Công nghệ sử dụng
+## Công nghệ sử dụng
 
 * **Ngôn ngữ:** Python 3.13
 * **Backend Framework:** Django
@@ -27,9 +27,7 @@ Cinemax là một ứng dụng web mô phỏng hệ thống rạp chiếu phim. 
 * **Cơ sở dữ liệu:** SQLite 
 * **Triển khai:** Docker, Docker Compose
 
-## ⚙️ Hướng dẫn cài đặt và khởi chạy
-
-Dự án đã được đóng băng trạng thái chuẩn nhất với toàn bộ dữ liệu (15 bộ phim, ảnh poster chất lượng cao) và không yêu cầu cấu hình môi trường máy chủ phức tạp.
+## Hướng dẫn cài đặt và khởi chạy
 
 ### 1. Khởi chạy hệ thống bằng Docker
 Đảm bảo máy tính đã cài đặt Docker. Mở terminal tại thư mục gốc của dự án và chạy lệnh sau để build và chạy ngầm (detached mode):
